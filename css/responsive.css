@@ -1,0 +1,166 @@
+
+@media (max-width: 480px) {
+  .buttons-about .join {
+ 
+    font-size: 9px;
+    font-weight: 500;
+  }
+  
+  .buttons-about .contact-2 {
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .buttons-about .join:hover {
+    font-size: 11px;
+    font-weight: 500;
+  }
+  
+  .buttons-about .contact-2:hover {
+    font-size: 11px;
+    font-weight: 500;
+  }
+  
+}
+@media (max-width: 463px) {
+  .frist-slide h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .frist-slide h1 span {
+    color: var(--second-color);
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 481px) {
+  .newsletter{
+    margin-bottom: 50px;
+  }
+  .newsletter .search .searching {
+    height: 40px;
+    transform: translateX(-72px);
+    z-index: 9999;
+    margin-top: 9px;
+  }
+  .careers .radio-input h4 {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .second-tabs ul.nav li.nav-item button.lease-box {
+    height: 109px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar .navbar-collapse {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all ease 0.5s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .navbar .collapse:not(.show) {
+    display: block;
+  }
+  .navbar .navbar-nav {
+    width: 250px;
+    height: 100vh;
+    background: #fff;
+    color: #000;
+    padding-top: 30px;
+    transform: translateX(-100%);
+    transition: all ease 0.5s;
+  }
+  .navbar-collapse.show-navbar {
+    opacity: 1;
+    visibility: visible;
+  }
+  .navbar .navbar-collapse.show-navbar .navbar-nav {
+    transform: translateX(0);
+  }
+  .navbar .navbar-nav .nav-item a.nav-link {
+    color: #000 !important;
+  }
+  .navbar .navbar-nav .nav-item a.nav-link:before {
+    display: none;
+  }
+  .navbar .navbar-nav .close-navbar {
+    display: block;
+  }
+  .easy-steps-text {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translatex(-50%);
+  
+  }
+  .easy-steps-button {
+    position: absolute;
+    bottom: 12%;
+    right: 24%;
+
+  }
+  
+}
+@media (max-width: 767px) {
+  .software{
+    background-position: left;
+  }
+  .about-img-down .truck-vehicle{
+    background-position: left;
+  }
+  .about-img .truck-long{
+    background-position: left;
+  }
+  .about-img .professional-truck{
+    background-position: left;
+  }
+  .haul-img .machinery{
+    background-position: left;
+  }
+  .slide-icon{
+    gap: 20px;
+  }
+  .slide-icon .icon {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .main-form .upload-link a {
+    color: var(--main-color);
+    margin-top: 13px;
+    transform: translateX(-18px);
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .careers span.icon-text p {
+    font-size: 10px;
+  }
+  .second-tab{
+width: 100%;
+
+  }
+  .easy-steps-text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translatex(-50%);
+  
+  }
+  .easy-steps-button {
+    position: absolute;
+    bottom: 7%;
+    right: 0%;
+
+  }
+}
