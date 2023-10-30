@@ -40,7 +40,7 @@ $(document).ready(function () {
     loop: true,
     nav: false,
     margin:0,
-    autoplay:false,
+    autoplay:true,
    autoplayTimeout:4500,
     autoplayHoverPause:false,
     responsive: {
